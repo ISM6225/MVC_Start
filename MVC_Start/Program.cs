@@ -14,7 +14,8 @@ namespace MVC_Start
   {
     public static void Main(string[] args)
     {
-      BuildWebHost(args).Run();
+          // Alex's comment
+          BuildWebHost(args).Run();
     }
 
     public static IWebHost BuildWebHost(string[] args) =>
@@ -22,4 +23,5 @@ namespace MVC_Start
             .UseStartup<Startup>()
             .Build();
   }
+    //Deb's Comment
 }
